@@ -1,0 +1,54 @@
+{
+	"likeButtonStrings": {
+		"noLikes": "Like!",
+		"youLike": "Unlike",
+		"theyLike": "Connect!",
+		"mutualLike": "Disconnect"
+	},
+
+	"sortingMethods": [
+		{
+			"name": "matchRating",
+			"display": "Best match",
+			"key": "matchRating",
+			"order": 1
+		},
+		{
+			"name": "distance",
+			"display": "Distance",
+			"key": "distance",
+			"order": 1
+		},
+		{
+			"name": "fameAsc",
+			"display": "Fame ascending",
+			"key": "fame",
+			"order": 1
+		},
+		{
+			"name": "fameDesc",
+			"display": "Fame descending",
+			"key": "fame",
+			"order": -1
+		},
+		{
+			"name": "ageAsc",
+			"display": "Age ascending",
+			"key": "age",
+			"order": 1
+		},
+		{
+			"name": "ageDesc",
+			"display": "Age descending",
+			"key": "age",
+			"order": -1
+		},
+		{
+			"name": "tags",
+			"display": "Common tags",
+			"key": "commonTags",
+			"order": -1
+		}
+	]
+}
+

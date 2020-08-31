@@ -1,0 +1,9 @@
+doctype html
+html
+  head
+    title= title ? title + ' | Matcha' : 'Matcha'
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    include includes/header.pug
+    block content
+    include includes/footer.pug

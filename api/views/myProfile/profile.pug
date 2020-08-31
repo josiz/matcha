@@ -1,0 +1,60 @@
+extends ../layout
+
+block content
+	h1 My profile
+	form(method="post")
+
+		label(for="email") Email
+		input(type="email", name="email" value=userData.email)
+
+		label(for="firstName") First name
+		input(type="text", name="firstName" value=userData.first_name)
+
+		label(for="lastName") Last name
+		input(type="text", name="lastName" value=userData.last_name)
+
+		div I am a...
+		label Man
+			input(type="radio", name="gender", value="m" checked=userData.gender == 'm')
+		label Woman
+			input(type="radio", name="gender", value="f" checked=userData.gender == 'f')
+		
+		div Looking for
+		label Men
+			input(type="radio", name="target", value="m" checked=userData.target_genders == 'm')
+		label Both
+			input(type="radio", name="target", value="fm" checked=userData.target_genders.length == 2)
+		label Women
+			input(type="radio", name="target", value="f" checked=userData.target_genders == 'f')
+
+		label(for="age") Age
+		input(type="number" name="age" min="1" max="120" step="1" value=userData.age)
+
+		label(for="biography") Biography
+		textarea(name="biography") #{biography}
+
+		label(for="tags") Interests
+		textarea(name="tags") #{tags}
+
+		label(for="latitude") Latitude
+		input(type="text", name="latitude", value=userData.latitude)
+
+		label(for="longitude") Longitude
+		input(type="text", name="longitude", value=userData.longitude)
+
+		input(type="submit", value="Submit")
+	
+	a(href='/myProfile/pics') Manage my photos
+
+//- label(for="gender") I am a...
+		select(name="gender")
+			if !userData.gender
+				option(value="0") Gender
+			option(value="2") Man
+			option(value="3") Woman
+
+	label(for="gender") Looking for...
+		select(name="target")
+			option(value="2") Men
+			option(value="3") Women
+			option(value="6") Both

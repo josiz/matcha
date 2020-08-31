@@ -1,0 +1,22 @@
+header
+	div#logo
+		p Logo goes here
+	div#headerTopRight
+		if user
+			div
+				a(href='/myProfile/profile') #{user.username}
+			div
+				a(href='/logout') Log out
+		else
+			div
+				a(href='/login') Log in
+			div
+				a(href='/register') Register
+	nav
+		ul
+			li
+				a(href='/') Home
+			if user
+				li
+					a(href='/search') Find matches
+

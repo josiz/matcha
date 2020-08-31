@@ -1,0 +1,14 @@
+extends ../layout
+
+block content
+	h1 My photos
+	form(method='post' enctype='multipart/form-data')
+		label(for='photos') Upload a photo
+		input(type='file' name='photos')
+		input(type='submit' name='submit' value='Upload')
+	
+	if results
+		div
+			each pic in results
+				div
+					img(src='/img/userPhotos/' + pic.id + '.' + pic.extension)

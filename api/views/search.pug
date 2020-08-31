@@ -1,0 +1,17 @@
+extends layout
+
+block content
+	h1 Suggested profiles
+	div
+		if profiles
+			table
+				tr
+					th Name
+					th Age
+					th Gender
+				each profile in profiles
+					tr
+						td
+							a(href=`/profile/${profile.id}`)= profile.first_name + ' ' + profile.last_name[0] + '.'
+						td= profile.age
+						td= profile.gender

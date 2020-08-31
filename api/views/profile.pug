@@ -1,0 +1,9 @@
+extends layout
+
+block content
+	h2!= profileData.first_name + ' ' + profileData.last_name[0] + '., ' + profileData.age + ' ' + gender
+	div!= 'Interested in ' + lookingFor
+	if likeButton
+		button(id='likeButton')= likeButton
+
+	script(src='/scripts/likeButton.js')

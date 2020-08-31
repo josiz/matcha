@@ -1,0 +1,14 @@
+{
+	"service": "gmail",
+	"host": "smtp.gmail.com",
+	"port": 587,
+	"auth": {
+		"user": "matcha.spammer@gmail.com",
+		"pass": "Aa123123123!"
+	},
+
+	"42clientId": "932fc007009ee06ec98cba8f6d4842c092a26a18aef1875d5b7bc91d9308a7a0",
+	"42clientSecret": "84e88bb53673ca2a6811e58abc46aaf657e6fc205902748b5fccf6f24da28d79",
+	"42redirectUriLogin": "http://localhost:3001/apiLogin",
+	"42redirectUriRegister": "http://localhost:3001/apiRegister"
+}
