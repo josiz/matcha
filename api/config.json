@@ -5,8 +5,8 @@
 		"password": "123123",
 		"database": "matcha"
 	},
-	"secret": "topz33kr17",
-	"salt": "m4tcha.com",
+	"secret": removed from github,
+	"salt": removed from github,
 
 	"likeButtonStrings": {
 		"noLikes": "Like!",
@@ -15,5 +15,5 @@
 		"mutualLike": "Disconnect"
 	},
 
-	"tokenSecret": "8f18ee95038b3ecbbcb10ea241b69a82a3599673a58eddb0e208d1b66b277b03fda72f18665a675c5634125037731230630bf0c037a4f19fca1d731314bd354c"
+	"tokenSecret": removed from github
 }
