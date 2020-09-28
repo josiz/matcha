@@ -18,5 +18,5 @@ You can create an account, let the browser get your position and upload some pic
 
 You can also see the users that have viewed your profile, and other users can see if you have viewed theirs. You can also block users and report them.
 
-
+Click on login to see available accounts for quick access..
 [link to the app!](https://kimsappi-matcha.herokuapp.com/)
