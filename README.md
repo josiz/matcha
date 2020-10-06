@@ -20,15 +20,15 @@ You can also see the users that have viewed your profile, and other users can se
 
 Click on login to see available accounts for quick access..
 [link to the app!](https://kimsappi-matcha.herokuapp.com/)
-
-Own profile page
+<br /><br />
+Own profile page<br />
 <img src="https://lh3.googleusercontent.com/pw/ACtC-3dveVQXa3y8n_E0r6O_1w2HN8_2P6hXdbgOmpUM3FTMR-_rTbfu3PU-diBVRhGq2lNwFK2qDFaCsE3sXKRNFSHhnW6PESBMKsZXnxbgqSX41oKneaPgdY2nZKWYsJ_YY0Cfq-2cAza6WbKH4QivuSP3=w1614-h2014-no?authuser=0" alt="profile" width="60%">
 
-Check who looked at your profile and who have liked you
+Check who looked at your profile and who have liked you<br />
 <img src="https://lh3.googleusercontent.com/pw/ACtC-3c38MWckd5eDwB26n6xT3vr3CN2gijE4ii5zOEVMy_Z9JZ-5-ZEXbyZ_s8FmeCcV4TNYmFOXBYlhhbNfERBDapE7GNgfc-9E32eyEBxF3_mCFkNlbWvnkm0FpwOkxolh88vRxvMPmtyJPE7_Uzj7j9x=w2404-h1580-no?authuser=0" alt="visits" width="60%">
 
-Search for users by setting the filters
+Search for users by setting the filters<br />
 <img src="https://lh3.googleusercontent.com/pw/ACtC-3dGdlJQDccONMDmv2GGb29O7IeHiXGTbFBU4Qwk6DJFL_cGunUt2IrKAw_vw1x2oFc3Wuwzrch2tKCnqVTZVE5gwurrdi25euIxcYUXaXBkRMisCy0amK9dUNgc98_N8NZt1RIuqkuwTffAz2sEe5hp=w2802-h1702-no?authuser=0" alt="filter" width="60%">
 
-Chat with matches via live chat
+Chat with matches via live chat<br />
 <img src="https://lh3.googleusercontent.com/pw/ACtC-3cSAlarC_OmcmQRpt4AfjONygtL_nqjFYeDKbnlLWbj5x0w4vjMoSlKVoRTa2u_IVHXoxl98FEQVzOEKK8KEDduSLdoafB-CO_ViMmzuL99RwC_6-IeGRi82dR5W0xpUH7s_bUARw7ZQWqAjaKTXEW5=w1012-h1172-no?authuser=0" alt="chat" width="60%">
